@@ -1,0 +1,20 @@
+news-app/
+├── client/                     # Frontend React application
+│   ├── public/
+│   └── src/
+│       ├── components/         # Reusable components
+│       ├── pages/             # Page components
+│       ├── services/          # API services
+│       ├── context/           # React context
+│       ├── hooks/             # Custom hooks
+│       └── utils/             # Utility functions
+├── server/                     # Backend Node.js application
+│   ├── src/
+│   │   ├── controllers/       # Route controllers
+│   │   ├── models/           # Database models
+│   │   ├── routes/           # API routes
+│   │   ├── services/         # Business logic
+│   │   ├── config/           # Configuration files
+│   │   └── utils/            # Utility functions
+│   └── tests/                 # Backend tests
+└── docker/                    # Docker configuration
